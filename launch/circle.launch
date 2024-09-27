@@ -1,0 +1,8 @@
+<launch>
+    <!-- 启动base.launch文件 -->
+    <!-- Launch the base.launch file -->
+    <include file="$(find practice)/launch/base.launch"/>
+    <!-- 启动画圆节点 -->
+    <!-- Activate lidar obstacle avoidance node -->
+    <node name='circle' pkg="practice" type="draw_circle.py" required="true" output="screen"/>
+</launch>

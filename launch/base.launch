@@ -1,0 +1,5 @@
+<launch>
+    <!-- 启动小车底盘驱动节点-->
+    <!-- Start the car chassis drive node -->
+    <include file="$(find practice)/launch/yahboomcar.launch"/>
+</launch>
